@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="tap_mic_and_speak">Tap Mic and Speak</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Arabic</item>
+        <item>Chinese</item>
+        <item>Dutch</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Tamil</item>
+        <item>Vietnamese</item>
+    </string-array>
+</resources>

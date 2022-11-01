@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity{
                 .setGoogleIdTokenRequestOptions(BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
                         .setSupported(true)
                         // Your server's client ID, not your Android client ID.
-                        .setServerClientId("907764184094-v1j93vu84708ql55udov2iujrdgjjm96.apps.googleusercontent.com")
+                        .setServerClientId("FIREBASE ID")
                         // Only show accounts previously used to sign in.
                         .setFilterByAuthorizedAccounts(true)
                         .build())
@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity{
 
                 List<String> stop = Arrays.asList("\n", "Human:", "AI:");
 
-                OpenAiService service = new OpenAiService("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");
+                OpenAiService service = new OpenAiService("OPENAI API KEY");
                 CompletionRequest completionRequest = CompletionRequest.builder()
                         .prompt(Arrays.toString(promptElements))
                         .echo(true)
